@@ -20,6 +20,9 @@ namespace TestCSharp
             var arrValue = "".Split(" ");
 
             ulong sum = 0, x1;
+
+            // test 1
+
             var x = Math.Sqrt(long.Parse(arrValue[0]));
             if (x * x < long.Parse(arrValue[0]))
             {
